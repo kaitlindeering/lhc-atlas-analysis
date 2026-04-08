@@ -23,4 +23,12 @@ Download data_A.GamGam.root through data_D.GamGam.root and place them in the pro
 pip install uproot awkward numpy matplotlib scipy
 
 ## Skills demonstrated
-Python, NumPy, Matplotlib, SciPy, uproot, particle physics data analysis, signal processing, scientific visualization
+Python, NumPy, Matplotlib, SciPy, uproot, particle physics data analysis, signal processing, 
+scientific visualization
+
+## Known Limitations
+
+The polynomial background model can produce artifacts outside the signal region - the peak 
+around 150 GeV is likely a fitting artifact rather than a real physics signal. A Bernstein 
+polynomial or an exponential fit would be more robust against the effect. 
+We can see that the Higgs signal falls within the fitted region and remains unaffected.
