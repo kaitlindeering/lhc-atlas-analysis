@@ -6,6 +6,8 @@ real collision data from the ATLAS experiment at CERN's Large Hadron Collider.
 
 ## Result
 Measured Higgs mass: 124.06 +/- 0.83 GeV (known value: 125.09 GeV)
+<img width="1500" height="750" alt="higgs_signal" src="https://github.com/user-attachments/assets/83c367da-d4b3-4975-b019-2abd3520c237" />
+
 
 ## What this analysis does
 - Loads ~1 million real LHC collision events from four ATLAS data files
