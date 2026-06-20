@@ -18,11 +18,11 @@ Measured Higgs mass: 124.06 +/- 0.83 GeV (known value: 125.09 GeV)
 - Fits a Gaussian to measure the Higgs mass with uncertainty
 
 ## Data
-ATLAS Open Data 13 TeV educational dataset, available at opendata.cern.ch/record/15006
+ATLAS Open Data 13 TeV educational dataset, available at [ATLAS Open Data 13 TeV dataset](https://opendata.cern.ch/record/15006)
 Download data_A.GamGam.root through data_D.GamGam.root and place them in the project directory.
 
 ## Requirements
-pip install uproot awkward numpy matplotlib scipy
+Python 3.8+ required pip install uproot awkward numpy matplotlib scipy
 
 ## Skills demonstrated
 Python, NumPy, Matplotlib, SciPy, uproot, particle physics data analysis, signal processing, 
